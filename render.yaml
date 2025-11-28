@@ -1,0 +1,5 @@
+services :
+  type : web
+  name : yummy-yatra
+  env : docker
+  plan : free
