@@ -1,0 +1,82 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pakora Recipe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f9f7fc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h2 {
+            color: #6a1b9a;
+            font-weight: bold;
+            border-bottom: 3px solid #6a1b9a;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        h4 {
+            color: #8e24aa;
+            margin-top: 20px;
+        }
+        ul, ol {
+            background-color: #ffffff;
+            border-left: 4px solid #ba68c8;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        p {
+            font-size: 1.1rem;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(106, 27, 154, 0.1);
+        }
+        img {
+            border: 2px solid #ce93d8;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>🍽️ Pakora Recipe</h2>
+    <img src="images/pakoda.jpg" alt="Pakora" class="img-fluid my-3" style="max-height:300px; object-fit:cover;">
+
+    <h4>Description:</h4>
+    <p>Pakoras are deep-fried Indian fritters made with gram flour and a variety of vegetables. They are crispy, flavorful, and perfect for tea-time or rainy days.</p>
+
+    <h4>Prep Time:</h4>
+    <p>⏱️ <strong>20 minutes</strong></p>
+
+    <h4>Ingredients:</h4>
+    <ul>
+        <li>1 cup besan (gram flour)</li>
+        <li>1 onion (sliced)</li>
+        <li>1 potato (thinly sliced)</li>
+        <li>1/2 cup spinach (chopped)</li>
+        <li>1 green chili (chopped)</li>
+        <li>1/2 tsp red chili powder</li>
+        <li>1/2 tsp ajwain (carom seeds)</li>
+        <li>Salt to taste</li>
+        <li>Water as needed</li>
+        <li>Oil for deep frying</li>
+    </ul>
+
+    <h4>Instructions:</h4>
+    <ol>
+        <li>In a bowl, mix besan with chili powder, ajwain, salt, and chopped vegetables.</li>
+        <li>Add water gradually to form a thick batter.</li>
+        <li>Heat oil in a deep pan on medium heat.</li>
+        <li>Drop spoonfuls of batter into the oil and fry until golden and crispy.</li>
+        <li>Remove and drain excess oil on tissue paper.</li>
+        <li>Serve hot with mint chutney or ketchup.</li>
+    </ol>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+    font-family: 'Lobster',cursive;
+    background-color: #f8f9fa;
+}
+.primary-background{
+    background: #6a1b9a!important;
+    color: white;
+    padding: 20px 0;
+
+}
+.custom-read-btn {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+}
+
+.custom-read-btn:hover {
+    background-color: #4a148c; /* Slightly darker on hover */
+    color: white;
+}
